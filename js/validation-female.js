@@ -42,6 +42,7 @@ $(document).ready(function(){
            // Disable submit button just after the form processed 1st time successfully.
           
            $('#stb_subscribe_form').prop("action", "https://stibee.com/api/v1.0/lists/Y-dtfXCC2pv_nO98YHygvr1-_W7iAg==/public/subscribers");
+           
            $('#stb_form_submit_button').text('전송 중입니다');
            
             
@@ -60,10 +61,9 @@ $(document).ready(function(){
 });
 
 
+
 function dll(){
-    // var f = document.fm;
-    // f.submit();
-    // $('[name="fm"],[name="fm1"]').submit();
+//    alert('dll 작동!');
 
 }
 
