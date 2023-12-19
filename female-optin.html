@@ -212,65 +212,12 @@ src="https://www.facebook.com/tr?id=240293080974266&ev=PageView&noscript=1"
 
 
 
+<div id="test_body"></div>
 
 
 
-<link rel="stylesheet" href="./css/stb_subscribe_form_style.css">
-<div id="stb_subscribe" style="border:0px;margin-top:0px;padding:0;">
-  
-  <form action="" method="POST" target="hidden_iframe11" onsubmit="dll(); submitted=true;" accept-charset="utf-8" class="stb_form" name="stb_subscribe_form" id="stb_subscribe_form" novalidate>
-    
-
-    
-    
-      <fieldset class="stb_form_set">
-       
-        <input type="text" class="stb_form_set_input" id="stb_email" name="email" required="required" placeholder="이메일로 보내드려요" style="border-radius:5px;padding:12px 18px;border:1.5;">
-        <div class="stb_form_msg_error" id="stb_email_error"></div>
-      </fieldset>
-    
-
-    
-
-    
-      <div class="stb_form_policy">
-        <label>
-          <input type="checkbox" id="stb_policy" value="stb_policy_true" checked>
-          
-          <button id="stb_form_modal_open" data-modal="stb_form_policy_modal" class="stb_form_modal_open_btn privacyBtn" type="button">개인정보 수집 및 이용</button>에 동의합니다.
-        </label>
-        <div class="stb_form_msg_error" id="stb_policy_error"></div>
-        <div class="stb_form_modal stb_form_policy_text blind" id="stb_form_policy_modal">
-          <div class="stb_form_modal_body">
-            <h1 class="stb_form_modal_title">
-              개인정보 수집 및 이용
-            </h1>
-            <div class="stb_form_modal_text">뉴스레터 발송을 위한 최소한의 개인정보를 수집하고 이용합니다.
-수집된 정보는 발송 외 다른 목적으로 이용되지 않으며, 서비스가 종료되거나 구독을 해지할 경우 즉시 파기됩니다.</div>
-            <div class="stb_form_modal_btn">
-              <button id="stb_form_modal_close" class="stb_form_modal_close_btn" data-modal="stb_form_policy_modal" type="button">닫기</button>
-            </div>
-          </div>
-          <div class="stb_form_modal_bg" id="stb_form_modal_bg"></div>
-        </div>
-      </div>
-
-    
-    <div class="stb_form_result" id="stb_form_result">
-    </div>
-
-         
-      <fieldset class="stb_form_set_submit" style="text-align:-webkit-center;">
-        <button type="submit" class="stb_form_submit_button elButtonMain" id="stb_form_submit_button"
-          style="color: rgb(255, 255, 255);background: #ea907a;font-size: 16px;border-radius:60px;font-weight:bold;padding:10px 44px !important;">지금 신청하기</button>
-      </fieldset>
-    
- 
-  </div>
 </div>
 
-<script type="text/javascript">var submitted = false;</script>
-<iframe name="hidden_iframe11" id="hidden_iframe11" style="display:none;" onload=""></iframe>
 
 </form>
 
@@ -602,6 +549,11 @@ window.addEventListener('load', function(){
 <![endif]-->
 
 <style>
+
+  #send_message{box-shadow: none;color: rgb(255, 255, 255);background: #ea907a;font-size: 16px;border: none;border-radius: 60px; padding: 10px 35px !important;text-align: center !important;font-weight:bold;}
+
+  #email{border: 1px solid rgba(0,0,0,0.2);border-radius:5px !important;background-position: 97%;text-decoration: none !important;font-size: 16px !important;padding: 12px 18px !important;    outline: none;height:53px !important;margin-bottom:6px;}
+
   .privacyBtn { cursor: pointer; color:#000;font-weight: 200; font-size: 13px; margin-top: -10px}
 .privacyBtn:hover {color:#284E80;font-weight: 300; font-size: 13px; margin-top: -10px}
 
@@ -795,16 +747,10 @@ body.overflow {
 <meta name="can_calculate_taxes" content="false"><script defer src="./js/beacon.min.js" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"82b01af5efe1c0f6","version":"2023.10.0","token":"405b708a9b0242e88fda34dc27903686"}' crossorigin="anonymous"></script> -->
 
 
-<!-- <script type="text/javascript" src="./js/stb_subscribe_form.js"></script> -->
-<script type="text/javascript"  src="./js/personal_f.js"></script>
+<!-- <script type="text/javascript" src="./js/stb_subscribe_form-test.js"></script> -->
+<script src="./js/form-female.js" ></script>
+<script src="./js/personal.js"></script>
 
-<script type="text/javascript"  src="./js/validation-female.js"></script>
-<script>
-  function hoa(){
-    
-    alert("체험권 신청이 완료되었습니다.\n축하합니다! 14일 무료체험 당첨되셨습니다!");
-    location.href='./thank-you_female.html';
-  }
-</script>
+<script src="js/validation-f-optin.js"></script>
 </body>
 </html>
